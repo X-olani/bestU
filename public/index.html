@@ -35,4 +35,23 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAZLLE7vyRB3lIc8xaV4HPgsY4wtHEPTQg",
+      authDomain: "checko-1332b.firebaseapp.com",
+      databaseURL: "https://checko-1332b.firebaseio.com",
+      projectId: "checko-1332b",
+      storageBucket: "checko-1332b.appspot.com",
+      messagingSenderId: "275746635970",
+      appId: "1:275746635970:web:ec9e281c2e9b0510"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </html>
